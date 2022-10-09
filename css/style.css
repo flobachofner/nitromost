@@ -52,7 +52,7 @@ i {
 .shop_wrapper {
 	position: fixed;
 	top: 6%;
-	left: 5%;
+	left: 3%;
 	border: 2px solid #F2E9E1;
 	padding: 5px 10px;
 	background-color: #CC2027;
@@ -82,13 +82,13 @@ i {
 	position: fixed;
 	padding: 5px 10px;
 	background-color: #CC2027;
-	bottom: 6%;
-	right: 5%;
+	top: 3%;
+	right: 1.5%;
 	z-index: 1;
 }
 
 .madeinzurich_logo {
-	height: 100px;
+	height: 80px;
 	transition: transform .6s;
 }
 
