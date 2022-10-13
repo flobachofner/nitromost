@@ -63,6 +63,38 @@ i {
 	transform: scale(1.2);
 }
 
+/* Card */
+#callToAction {
+	padding-bottom: 20px;
+}
+
+.ig-card {
+  color: white;
+  padding: 1rem;
+  height: auto;
+  max-width: 300px;
+}
+
+.ig-cards {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-gap: 1rem;
+ }
+ 
+ @media (min-width: 750px) {
+  .ig-cards { grid-template-columns: repeat(2, 1fr); }
+}
+
+@media (min-width: 1200px) {
+  .ig-cards { grid-template-columns: repeat(3, 1fr); }
+}
+
+.instagram-media {
+  max-width: 100%;
+  min-width: 0 !important;
+}
+
 
 /* Socials */
 .socials_wrapper {
