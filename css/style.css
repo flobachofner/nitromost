@@ -23,7 +23,7 @@ section {
 
 h2 {
 	font-size: 30px;
-	margin: 3vh 0 9vh 0;
+	margin: 3vh 0 6vh 0;
 }
 
 strong {
@@ -118,6 +118,7 @@ i {
 @media screen and (max-width: 600px) {
   #logo {
     width: 75vw;
+	margin-top: 10vh;
   }
 }
 
@@ -139,7 +140,7 @@ i {
 
 /* Text */
 #info {
-	padding-top: 15vh;
+	padding-bottom: 10vh;
 	margin: 10vh 0 4vh 0;
 }
 
