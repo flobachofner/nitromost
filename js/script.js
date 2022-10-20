@@ -50,7 +50,7 @@ function initMap() {
       position: new google.maps.LatLng(47.418643451116985, 8.558690905968334),
       type: "production",
 	  name: "Brauerei Oerlikon",
-	  text: "Die Brauerei Oerlikon ist die Geburtsstätte von Igor TURBORUSS. This is where the magic happens...<br><br>Hier kannst du jederzeit auch Flaschen in grossen Mengen direkt ab Lager kaufen!",
+	  text: "Die Brauerei Oerlikon ist die Geburtsstätte von NITROMOST. This is where the magic happens...<br><br>Hier kannst du jederzeit auch Flaschen in grossen Mengen direkt ab Lager kaufen!",
 	  link: "https://brauerei-oerlikon.ch"
     },/*
 	{
@@ -63,49 +63,49 @@ function initMap() {
       position: new google.maps.LatLng(47.38734391817556, 8.530356835427366),
       type: "distributor",
 	  name: "Resonance Jams im Planet 5",
-	  text: "Ziemlich jeden Donnerstag treffen sich an der Limmat in einer gemütlichen und lockeren Atmosphäre um zu jammen, zu quatschen und um zuzuhören. Neu mit dabei: Igor TURBORUSS!",
+	  text: "Ziemlich jeden Donnerstag treffen sich an der Limmat in einer gemütlichen und lockeren Atmosphäre um zu jammen, zu quatschen und um zuzuhören. Neu mit dabei: NITROMOST!",
 	  link: "https://www.resonancejams.ch/"
     },
     {
       position: new google.maps.LatLng(47.369710564499606, 8.544566311719064),
       type: "distributor",
 	  name: "Karl der Grosse",
-	  text: "Du hast nach 4 Stunden Weihnachtseinkauf im Niederdörfli alle wichtigen Geschenke gefunden, dir ist nun zwar ganz warm ums Herz aber du hast eiskalte Finger? <br><br>Dann geh schnell ins Karl der Grosse, denn dort bekommst du seit neustem eine heisse Tasse Igor TURBORUSS.",
+	  text: "Du hast nach 4 Stunden Weihnachtseinkauf im Niederdörfli alle wichtigen Geschenke gefunden, dir ist nun zwar ganz warm ums Herz aber du hast eiskalte Finger? <br><br>Dann geh schnell ins Karl der Grosse, denn dort bekommst du seit neustem eine heisse Tasse NITROMOST.",
 	  link: "https://karldergrosse.ch/"
     },
 	{
       position: new google.maps.LatLng(47.379170731925306, 8.544534830022993),
       type: "distributor",
 	  name: "Kleine Freiheit",
-	  text: "Frustriert ab deiner Statistik Vorlesung (15:00 - 17:00, KOH-B-10)? Ab heute kannst du vom Vorlesungssaal direkt in die Kleine Freiheit spazieren, um bei einer heissen Tasse Igor TURBORUSS deine akademischen Sorgen für ein Stündchen auszublenden. <br><br> Mit diesem ersten Zürcher Verkaufsstandort gilt die Igor TURBORUSS Saison als offiziell eröffnet.",
+	  text: "Frustriert ab deiner Statistik Vorlesung (15:00 - 17:00, KOH-B-10)? Ab heute kannst du vom Vorlesungssaal direkt in die Kleine Freiheit spazieren, um bei einer heissen Tasse NITROMOST deine akademischen Sorgen für ein Stündchen auszublenden. <br><br> Mit diesem ersten Zürcher Verkaufsstandort gilt die NITROMOST Saison als offiziell eröffnet.",
 	  link: "https://kleinefreiheit.ch/"
     },
 	{
       position: new google.maps.LatLng(47.480003085165364, 8.300914432537645),
       type: "distributor",
 	  name: "Werkk Kulturlokal Baden",
-	  text: "Du magst Metal und Igor TURBORUSS? <br>Dann bist du jeden Montag im Werkk am Metal Monday genau richtig!",
+	  text: "Du magst Metal und NITROMOST? <br>Dann bist du jeden Montag im Werkk am Metal Monday genau richtig!",
 	  link: "https://www.metalmonday.ch/"
     },
 	{
       position: new google.maps.LatLng(47.37609990248077, 8.54672287389409),
       type: "seller_distributor",
 	  name: "bQm",
-	  text: "Bist du nach einer seeeeehr langen Uni-Woche (Mo-Do, 5 VL, 3 davon besucht) komplett ausgelaugt und brauchst etwas wohlig warmes um das Wochenende einzuläuten? <br><br> Wir verschaffen Abhilfe! Ab heute ist der Igor TURBORUSS im bQm unter der ETH Polyterrasse an der Bar erhältlich! <br><br> Zudem: Im bQm kannst du auch gleich für deinen nächsten WG-Abend [1, 2, ..., n] Flaschen Igor TURBORUSS erwerben :)",
+	  text: "Bist du nach einer seeeeehr langen Uni-Woche (Mo-Do, 5 VL, 3 davon besucht) komplett ausgelaugt und brauchst etwas wohlig warmes um das Wochenende einzuläuten? <br><br> Wir verschaffen Abhilfe! Ab heute ist der NITROMOST im bQm unter der ETH Polyterrasse an der Bar erhältlich! <br><br> Zudem: Im bQm kannst du auch gleich für deinen nächsten WG-Abend [1, 2, ..., n] Flaschen NITROMOST erwerben :)",
 	  link: "https://www.bqm-bar.ch/de/"
     },
 	{
       position: new google.maps.LatLng(47.37274151062592, 8.543627342936118),
       type: "seller",
 	  name: "Berg und Tal im Niederdorf",
-	  text: "Suchst du lokale Spezialitäten<br>Oder neue kulinarische Raritäten<br>Ist das Lädeli Berg und Tal<br>Logischerweise die erste Wahl<br><br>Und dort kannst du nun ganz neu<br>Kaufen unser Wintergebräu<br>Nein, es ist nicht Kafi mit Schuss<br>Sondern Igor TURBORUSS!",
+	  text: "Suchst du lokale Spezialitäten<br>Oder neue kulinarische Raritäten<br>Ist das Lädeli Berg und Tal<br>Logischerweise die erste Wahl<br><br>Und dort kannst du nun ganz neu<br>Kaufen unser Wintergebräu<br>Nein, es ist nicht Kafi mit Schuss<br>Sondern NITROMOST!",
 	  link: "https://www.berg-tal.ch/"
     },
 	{
       position: new google.maps.LatLng(47.387870127568625, 8.526483829478202),
       type: "seller",
 	  name: "Berg und Tal im Viadukt",
-	  text: "Suchst du lokale Spezialitäten<br>Oder neue kulinarische Raritäten<br>Ist das Lädeli Berg und Tal<br>Logischerweise die erste Wahl<br><br>Und dort kannst du nun ganz neu<br>Kaufen unser Wintergebräu<br>Nein, es ist nicht Kafi mit Schuss<br>Sondern Igor TURBORUSS!",
+	  text: "Suchst du lokale Spezialitäten<br>Oder neue kulinarische Raritäten<br>Ist das Lädeli Berg und Tal<br>Logischerweise die erste Wahl<br><br>Und dort kannst du nun ganz neu<br>Kaufen unser Wintergebräu<br>Nein, es ist nicht Kafi mit Schuss<br>Sondern NITROMOST!",
 	  link: "https://www.berg-tal.ch/"
     },
 	{
