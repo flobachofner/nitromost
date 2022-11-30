@@ -115,6 +115,20 @@ function initMap() {
 	  text: "Unser Standort in Winterthur!",
 	  link: "https://zumhinterenhecht.ch"
     },
+	{
+      position: new google.maps.LatLng(47.4089011, 8.5432055),
+      type: "distributor",
+	  name: "Venus Bistro",
+	  text: "Auch hier findest du feinen NITROMOST zu heiss genissen. Glühwein?! Nein Danke.",
+	  link: "http://www.venusbistro.ch/"
+    },
+	{
+      position: new google.maps.LatLng(47.4116759, 8.543671),
+      type: "seller",
+	  name: "Drinks of the World Oerlikon",
+	  text: "Kauf deine Flaschen bequem am Bahnhof!",
+	  link: "http://www.beerworld.ch/"
+    },
   ];
 
   // Create markers
