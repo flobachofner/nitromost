@@ -52,13 +52,21 @@ function initMap() {
 	  name: "Brauerei Oerlikon",
 	  text: "Die Brauerei Oerlikon ist die Geburtsstätte von NITROMOST. This is where the magic happens...<br><br>Hier kannst du jederzeit auch Flaschen in grossen Mengen direkt ab Lager kaufen!",
 	  link: "https://brauerei-oerlikon.ch"
-    },/*
+    }, 
 	{
-      position: new google.maps.LatLng(47.4116522, 8.5412326),
+      position: new google.maps.LatLng(47.41165583965713, 8.5434105692131),
       type: "seller",
 	  name: "Drinks of the World Oerlikon",
-	  scaledSize: new google.maps.Size(10, 10),
-    },*/
+	  text: "Neu bekommst du NITROMOST auch direkt am Bahnhof Oerlikon!",
+	  link: "https://beerworld.ch/"
+    },
+	{
+      position: new google.maps.LatLng(47.37825064196232, 8.539364474742579),
+      type: "seller",
+	  name: "Drinks of the World Zürich HB",
+	  text: "Neu bekommst du NITROMOST auch direkt am HB!",
+	  link: "https://beerworld.ch/"
+    },
 	{
       position: new google.maps.LatLng(47.38734391817556, 8.530356835427366),
       type: "distributor",
@@ -72,6 +80,13 @@ function initMap() {
 	  name: "Karl der Grosse",
 	  text: "Du hast nach 4 Stunden Weihnachtseinkauf im Niederdörfli alle wichtigen Geschenke gefunden, dir ist nun zwar ganz warm ums Herz aber du hast eiskalte Finger? <br><br>Dann geh schnell ins Karl der Grosse, denn dort bekommst du seit neustem eine heisse Tasse NITROMOST.",
 	  link: "https://karldergrosse.ch/"
+    },
+	{
+      position: new google.maps.LatLng(47.388647181634326, 8.53619237649145),
+      type: "distributor",
+	  name: "Café des Amis",
+	  text: "Trink ganz gemütlich dein Tässli im Café des Amis <3",
+	  link: "http://www.desamis.ch/"
     },
 	{
       position: new google.maps.LatLng(47.379170731925306, 8.544534830022993),
