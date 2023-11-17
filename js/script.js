@@ -138,6 +138,13 @@ function initMap() {
           text: "Dani H., Nitromost!",
           link: "https://danielh.ch/"
       },
+      {
+          position: new google.maps.LatLng(47.37862853365082, 8.54850338664689),
+          type: "distributor",
+          name: "PapperlaPub",
+          text: "Viel Bier und viel Nitromost, jeden Mittwoch im Pub!",
+          link: "https://papperlapub.ethz.ch"
+      },
   ];
 
   // Create markers
