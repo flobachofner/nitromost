@@ -35,7 +35,7 @@
 		
 </head>
 	
-<body>
+<body onload="updateYear()">
 	<main>
 		<div class="madeinzurich_wrapper">
 			<a href="https://madeinzuerich.ch">
@@ -152,7 +152,7 @@
 				<a class="impressum-item" href="impressum.html" rel="_blank">Impressum</a>
 				<p class="impressum-item">|</p>
 				<a class="impressum-item" href="impressum.html" rel="_blank">Datenschutz</a>
-				<p id="copyright">&copy; 2024 by <a href="https://randvoll-getraenke.ch">Randvoll GmbH</a></p>
+				<p id="copyright">&copy; <span id="copyright-year"></span> by <a href="https://randvoll-getraenke.ch">Randvoll GmbH</a></p>
 			</div>
 			
 		</section>
@@ -188,6 +188,10 @@
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBAAp6RDfKobq4-eLJLHO9G7hKkt3lrvKI&callback=initMap&v=weekly" async></script>
 <!-- Custom JavaScript -->
 <script src="js/script.js"></script>
+<!-- Copyright Year -->
+<script>
+	document.getElementById("copyright-year").innerHTML= new Date().getFullYear();
+</script>
 <!-- Signup Form JavaScript 
 <script type="text/javascript" src="//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js"></script><script type="text/javascript">(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[3]='ADDRESS';ftypes[3]='address';fnames[4]='PHONE';ftypes[4]='phone';fnames[5]='BIRTHDAY';ftypes[5]='birthday';}(jQuery));var $mcj = jQuery.noConflict(true);</script>-->
 		

@@ -5,8 +5,10 @@ function getBaseUrl() {
     return re.exec(window.location.href);
 }
 
+
+
 ///////////////////
-// TURBORUSS Map //
+// NITROMOST Map //
 ///////////////////
 function initMap() {
 
