@@ -1,5 +1,6 @@
 <script setup>
 import { ref, computed } from "vue";
+import bottle_transp from '/images/bottle_transp.png';
 
 const faqs = ref([
   { question: "Wie mache ich den NITROMOST richtig heiss?", answer: "Analog zum verhassten Glühwein kannst du den Nitro einfach mit einer Pfanne oder einem Wärmer auf angenehme 60°C Trinktemperatur erhitzen.", open: false },
@@ -44,8 +45,8 @@ const toggleFAQ = (index) => {
 
     <div class="w-full md:w-1/2 min-h-screen bg-nitroRed relative flex flex-col justify-between p-8">
       <div class="absolute inset-0 flex flex-col items-center justify-center">
-        <img src="/images/bottle_transp.png" alt="Background Image" class="h-2/5 rotate-[33deg] transform translate-x-6 -translate-y-3 z-10">
-        <img src="/images/bottle_transp.png" alt="Background Image" class="h-2/5 mt-4 rotate-[-27deg] transform -translate-x-20 z-30">
+        <img :src="bottle_transp" alt="Background Image" class="h-2/5 rotate-[33deg] transform translate-x-6 -translate-y-3 z-10">
+        <img :src="bottle_transp" alt="Background Image" class="h-2/5 mt-4 rotate-[-27deg] transform -translate-x-20 z-30">
       </div>
 
       <a href="https://randvoll.gmbh/shop.html" target="_blank" rel="noopener noreferrer" class="absolute top-4 left-4 subtitle-style z-0 hover:italic hover:underline">LOOOOOS</a>
