@@ -26,7 +26,7 @@
 
       <!-- Inner Image (Clockwise Rotation) -->
       <img src="/images/statistic_1.svg" alt="Inner Image"
-           class="w-1/2 max-w-[300px] absolute animate-rotate-counter">
+           class="w-2/3 max-w-[300px] absolute animate-rotate-counter">
     </div>
   </div>
 </template>

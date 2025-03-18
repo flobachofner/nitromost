@@ -7,11 +7,11 @@
     <div class="w-full md:w-1/2 h-screen bg-nitroRed flex items-center justify-center relative">
       <!-- Outer Image (Counterclockwise Rotation) -->
       <img src="/images/apple.png" alt="Outer Image"
-           class="w-1/3 max-w-[130px] absolute animate-rotate-clockwise">
+           class="w-1/4 max-w-[130px] absolute animate-rotate-clockwise">
 
       <!-- Inner Image (Clockwise Rotation) -->
       <img src="/images/statistic_2.svg" alt="Inner Image"
-           class="w-1/2 max-w-[300px] absolute animate-rotate-counter">
+           class="w-2/3 max-w-[300px] absolute animate-rotate-counter">
     </div>
 
     <div class="w-full md:w-1/2 h-screen relative flex flex-col justify-between">

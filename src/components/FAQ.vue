@@ -57,13 +57,10 @@ const toggleFAQ = (index) => {
 </template>
 
 <style scoped>
-.faq-enter-active,
-.faq-leave-active {
-  transition: opacity 0.5s ease-in-out;
-}
-
-.faq-enter-from,
-.faq-leave-to {
-  opacity: 0;
+@media (max-width: 768px) {
+  .subtitle-style:last-of-type {
+    font-style: italic;
+    text-decoration: underline;
+  }
 }
 </style>
