@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.title-style {
+    @apply text-nitroRed md:text-[8vw] text-[19vw] leading-none;
+}
+
+.subtitle-style {
+    @apply text-white md:text-[8vw] text-[19vw] leading-none;
+}
+
+.text-style {
+    @apply text-nitroRed lg:text-[1.5vw] md:text-[2vw] text-[20px];
+}
+
