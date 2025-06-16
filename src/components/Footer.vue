@@ -5,7 +5,7 @@ const currentYear = new Date().getFullYear();
 <template>
   <div class="flex flex-col md:flex-row">
     <div class="w-full md:w-1/2 relative bg-nitroRed flex flex-col justify-between">
-      <div class="p-2 text-white">© {{ currentYear }} randvoll GmbH | Schärenmoosstrasse 105 | 8052 Züri</div>
+      <div class="p-2 text-white">© {{ currentYear }} randvoll GmbH | Pfingstweidstrasse 31 | 8005 Züri</div>
     </div>
 
     <div class="w-full md:w-1/2 relative flex flex-col justify-between">
